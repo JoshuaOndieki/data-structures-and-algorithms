@@ -11,7 +11,7 @@ const spiral = (n:number)=> {
     type direction = null | 'front' | 'back'
 
     for (let index = 0; index < array.length; index++) {
-        array[index] = new Array(3)
+        array[index] = new Array(n)
     }
 
     function directionSetter() {
